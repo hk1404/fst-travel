@@ -1,0 +1,123 @@
+
+/*nav start*/
+
+nav{
+    display:grid;
+    grid-template-columns: 1fr 3fr 4fr 0.8fr 2fr;
+    margin-left: auto;
+    align-items: center;
+    border-bottom: #111;
+}
+
+#nav a{
+    align-items: left;
+    padding-right: 0cm;
+    padding-left: 1ch;
+}
+#nav h1{
+    text-align: center;
+    padding-right: 1.5cm;
+    padding-left:0cm;
+    margin-top: 0ch;
+    margin-bottom: 0ch;
+}
+#nav input{
+    align-items: center;
+    padding-right: 2cm;
+    padding-left: 2cm;
+}
+nav div{
+    align-items: center;
+    padding-right: 2ch;
+    padding-left: 2ch;
+    display: inline-flex;
+    vertical-align: middle;
+    
+}
+.menu{
+    border-color: white;
+
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .positiondown{
+    margin-bottom: auto;
+    padding-top: 95%;
+  }
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+/*nav end*/
+
+
+/*item grids*/
+
+.part1{
+    display:grid;
+    grid-template-columns: 6fr 0.4fr 1.8fr 1.8fr;
+
+    padding: 1em;  
+    background: rgb(250, 112, 7);
+    font-size: larger;
+    color: #f1f1f1;
+}
+
+.tourdetails{
+    display:grid;
+    grid-template-columns: 2fr 4fr 0.4fr 1.8fr 1.8fr ;
+    grid-auto-rows: minmax(200px,auto);
+    margin-top: 1em;
+    grid-gap:1em;
+    padding: 1em;  
+    background: white;
+    font-size: larger;
+    color: #004897;
+}
+main{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.totalamount{
+  background: rgb(250, 112, 7);
+  padding: 1em;  
+  font-size: larger;
+  color: #f1f1f1;
+
+}
